@@ -28,7 +28,7 @@ unset($_SESSION['form']);
 unset($_SESSION['order_no']);
 
 //update sku_location
-//recursive call
+//recursive call//
 function updateSKULocation($sku,$qty)
 {
 	global $db;
